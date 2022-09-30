@@ -1,42 +1,14 @@
-#
-# Be sure to run `pod lib lint GalleryForMe.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
 
 Pod::Spec.new do |s|
   s.name             = 'GalleryForMe'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of GalleryForMe.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/facessu@gmail.com/GalleryForMe'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.swift_version    = "5.3"
+  s.summary          = 'Modern Gallery library written in Swift 5'
+  s.description      = 'This is iOS custom gallery library'
+  s.homepage         = 'https://github.com/inswag/GalleryForMe'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'facessu@gmail.com' => 'facessu@gmail.com' }
-  s.source           = { :git => 'https://github.com/facessu@gmail.com/GalleryForMe.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
+  s.author           = { 'inswag' => 'dev_soo@kakao.com' }
+  s.source           = { :git => 'https://github.com/inswag/GalleryForMe.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
-
   s.source_files = 'GalleryForMe/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'GalleryForMe' => ['GalleryForMe/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

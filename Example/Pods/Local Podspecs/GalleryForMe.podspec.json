@@ -1,0 +1,22 @@
+{
+  "name": "GalleryForMe",
+  "version": "0.1.0",
+  "summary": "A short description of GalleryForMe.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/facessu@gmail.com/GalleryForMe",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "facessu@gmail.com": "facessu@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/facessu@gmail.com/GalleryForMe.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "GalleryForMe/Classes/**/*"
+}
